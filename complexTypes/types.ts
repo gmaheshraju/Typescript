@@ -30,3 +30,19 @@ console.log(swapres)
 
 let swapres2 = swap<number>(1,2);
 console.log(swapres2)
+
+
+interface Todo {
+
+  title: string;
+  description: string,
+  id: number;
+  done:boolean
+}
+
+type UpdateTodoInput = Partial<Todo>;
+
+
+function updateTodo(id:number,newProp: UpdateTodoInput) {
+
+}
