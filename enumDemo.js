@@ -9,5 +9,5 @@ function calculateSum(a, b, type) {
     console.log("hi ", type);
     return a + b;
 }
-var ans = calculateSum(1, 2, Arithmetic.Add);
+var ans = calculateSum(1, 2, 2);
 console.log(ans);
