@@ -1,3 +1,4 @@
 # Typescript
 
-Refreshing typescript skills
+Refreshing typescript skills.
+Implement common patterns
